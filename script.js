@@ -26,5 +26,11 @@ document.getElementById("form").addEventListener("submit", function (e) {
       loader.style.display = "none";
       alert("Submitted successfully!");
     }, 2000);
+
+    const username = document.getElementById("username").value = "";
+    const password = document.getElementById("password").value = "";
+  
+    
+    
   }
 });
